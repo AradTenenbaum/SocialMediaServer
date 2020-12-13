@@ -1,0 +1,17 @@
+{
+  "name": "social_media_site_MERNG",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Arad Tenenbaum",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.7"
+  }
+}
