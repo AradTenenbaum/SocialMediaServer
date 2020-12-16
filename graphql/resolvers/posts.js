@@ -36,7 +36,7 @@ module.exports = {
 
             const newPost = new Post({
                 body,
-                user: user.indexOf,
+                user: user.id,
                 username: user.username,
                 createdAt: new Date().toISOString()
             });
